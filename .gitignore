@@ -1,0 +1,119 @@
+# --- Virtual environments ---
+.venv/
+venv/
+env/
+ENV/
+.ENV/
+.python-version
+
+# --- Python bytecode / cache ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- C extensions ---
+*.so
+*.dylib
+*.pyd
+
+# --- Packaging / build outputs ---
+build/
+dist/
+*.egg-info/
+.eggs/
+wheels/
+pip-wheel-metadata/
+*.egg
+MANIFEST
+
+# --- Unit test / coverage / reports ---
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+nosetests.xml
+junit.xml
+test-results/
+report.xml
+
+# --- Type checking ---
+.mypy_cache/
+.dmypy.json
+.pyre/
+.pytype/
+.pyright/
+.ruff_cache/
+
+# --- Lint / format tooling caches ---
+.cache/
+.tox/
+.nox/
+
+# --- Jupyter / IPython ---
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+.ipython/
+profile_default/
+*.nbconvert.ipynb
+
+# --- Data / runtime artifacts ---
+*.log
+*.sqlite
+*.sqlite3
+*.db
+*.pid
+
+# --- Environment files / secrets (keep these out of git) ---
+.env
+.env.*
+!.env.example
+!.env.template
+
+# --- Editor / IDE ---
+# PyCharm / IntelliJ
+.idea/
+*.iml
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# --- OS ---
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+desktop.ini
+
+# --- Docs / site builds ---
+site/
+docs/_build/
+
+# --- Python tooling (lockfiles / local state) ---
+# Poetry
+.poetry/
+# (Poetry lockfiles are usually committed; do NOT ignore poetry.lock)
+
+# Pipenv
+Pipfile.lock  # uncomment if you do NOT want to commit it
+# pip-tools
+# requirements.txt  # only ignore if you generate it and don't want it tracked
+
+# PDM
+.pdm.toml
+# (pdm.lock is usually committed; do NOT ignore by default)
+
+# Hatch
+.hatch/
+
+# Rye / uv
+.rye/
+.uv/
+uv.lock  # usually committed; comment out if you want it tracked
+
+# --- Misc ---
+*.swp
+*~
+
+
